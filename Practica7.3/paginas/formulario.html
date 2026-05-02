@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Salvador González Martínez">
+        <meta name="description" content="Ejercicio 7.3 - Cultivar fauna y microorganismos beneficos para tener huerto biologicamente vivo">
+
+        <title> Huerto vivo</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos7-3.css" >
+    </head>
+    <body>
+        <div id="contenedor">
+            <header>
+                <h1 id="inicio">Huerto Vivo</h1>
+                <p>Agricultura ecológica que valora y promueve la diversidad biológica</p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../ejercicio7-3.html">Inicio</a></li>
+                    <li><a href="#">¿Quienes somos?</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="./formulario.html">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+            <div id="contenido">
+
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Datos personales</legend>
+
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="Nombre:" placeholder="nombre" required>
+
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="Apellidos:" placeholder="apellidos">
+
+                            <label for="fecha">Fecha nacimiento</label>
+                            <input type="date" id="fecha" name="Fecha nacimiento">
+
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="Teléfono:" placeholder="telefono" maxlength="9">
+
+                            <label for="email">Correo:</label> 
+                            <input type="email" id="email" name="email" placeholder="correo electronico" required>
+
+                            <label for="cocimientos">Conocimiento BIO</label> 
+                            <input name="cursor" type="range" min="0" max="10" value="1" step="1">
+                            <span>&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</span>
+                            
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Mensaje</legend>
+
+                            <label for="asunto">Asunto</label> 
+                            <input list="listaAsuntos" id="asunto" name="Asunto" required>
+
+                            <datalist id="listaAsuntos">
+                                <option value="Atención al cliente">
+                                <option value="Información de servicios">
+                                <option value="Otro">     
+                            </datalist>
+
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" rows="10"  cols="40" placeholder="Escribe aquí tu mensaje..."></textarea>
+                            <label for="consentimiento"><input type="checkbox" id="consentimiento" name="consentimiento" required>Acepto la política de privacidad </label>
+                            <input type="submit" value="Enviar">   
+                        </fieldset>
+                    </form>
+
+            </div>
+            <footer>
+                <p>&copy; 2026 Ejercicio 7.3 by Salvador González Martínez - Todos los derechos reservados. Huerto Vivo por un mundo sosteniblemente mejor.</p>
+                <p class="redes"> 
+                    Siguenos:
+                    <a href="#"><img src="../media/facebook.png" alt="Facebook" class=" redonda"></a> 
+                    <a href="#"><img src="../media/instagram.png" alt="Instagram" class="curva"></a> 
+                    <a href="#"><img src="../media/x.png" alt="Red social X" class="redonda"></a> 
+                </p>
+            </footer>
+        </div>
+    </body>
+
+</html>

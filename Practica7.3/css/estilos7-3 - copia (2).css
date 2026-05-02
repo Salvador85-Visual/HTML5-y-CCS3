@@ -1,0 +1,176 @@
+body{
+    font-family: Arial, san-serif;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    background-image: url("../media/fondo.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+#contenedor { 
+    max-width: 1100px;
+    margin: 0px auto; 
+  
+    padding: 0px 0px 0px 0px; 
+     
+}
+header{
+    color:rgb(129, 76, 6);
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-color: burlywood;
+    font-weight: bold;
+}
+nav{
+    background-color: rgb(146, 209, 0);
+    padding: 1px 0;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+nav li{
+    display:inline-block;
+    margin-right: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    transition: 700ms;
+}
+nav a:hover{
+    background-color: black;
+    border-radius: 20px;
+    color:white;
+}
+#contenido{
+    padding: 20px;
+    display:flex;
+}
+
+footer{
+    clear: both;
+    border-top: rgb(146, 209 , 0) solid 5px;
+    text-align: center;
+    padding:5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+}   
+
+.redes img {
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: 300ms;
+}
+img.curva {
+    border-radius: 9px;
+}
+img.redonda{
+    border-radius: 100%;
+}
+.redes a { 
+    text-decoration: none; 
+}
+.redes img:hover {
+     transform: scale(1.2);
+}
+#contenido{
+    
+}
+aside{
+    float: left; 
+    border-radius: 8px;
+    background-color:burlywood;
+    color:white;
+    text-align: center;
+    height: 340px; 
+    width: 260px;
+    margin-left: 2%;
+}
+aside h3{
+    padding-top: 10px;
+    color:rgb(129, 76, 6);
+    text-decoration: underline;
+    font-weight: bold;  
+}
+aside ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+aside li{
+    margin: 10px;
+
+}
+aside a{
+    display: block;
+    text-decoration:none;
+    color:burlywood;
+    font-weight: bold;
+    transition: 500ms;
+    border:rgb(129, 76, 6) solid; 
+    border-radius: 9px;
+    padding: 9px;
+    background-color:rgb(129, 76, 6) ;
+}
+
+aside a:hover{
+    font-weight: bold;
+    border-color:rgba(248, 114, 4, 0.2) ;
+     background-color:rgba(248, 114, 4)  ;
+}
+main{
+    float: left;
+    margin-left: 8%;
+    margin-right: 15%;
+    text-align: justify;
+}    
+section{
+    background-color: rgba(255, 255, 255, 0.80); 
+    border-radius: 8px;
+    padding: 5%;
+    margin-bottom: 30px;
+}
+form{
+    display: flex;
+    
+    gap: 20px;
+    border-radius: 8px;
+    padding: 5%;
+    margin-bottom: 30px;
+}
+form label, form input {
+     display: block;
+     margin-bottom: 10px; 
+     border-radius: 5px;
+}
+
+fieldset{
+    
+    padding-top: 15px;
+    padding-right: 60px;
+    width: 60%; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-color:none;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+input[type="submit"] {
+     padding: 8px 12px; 
+     font-size: 16px;  
+    }
+legend{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: grey solid 1px;
+}
+
+    
